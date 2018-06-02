@@ -1,0 +1,162 @@
+# @Bevywise.com IOT Initiative. All rights reserved 
+# www.bevywise.com Email - support@bevywise.com
+#
+##########################################################################################
+#                                     START Simulator		                         #
+##########################################################################################
+
+ # START IoT Simulation
+   
+   1. Go to ./BevyWise/IoTSimulator/bin
+   2. To start broker, run runbroker.sh in terminal.
+   3. To start simulation, run runsimulator.sh in terminal.
+
+##########################################################################################
+#                     Location of BWSimREST packages for python and java                 #
+##########################################################################################
+
+ #API functions are defined in 
+     ->  ./BevyWise/IoTSimulator/lib/BW_Simulation_API/BW_PythonAPI/BWSimREST.py [ PYTHON ]
+     ->  ./BevyWise/IoTSimulator/lib/BW_Simulation_API/BW_Java_API/BW_JavaAPI/BWSimREST.java [ JAVA ]
+                             
+
+
+
+##################### Importing BWSimREST and calling API #############################
+
+
+
+---------------------------------PYTHON---------------------------------------------------
+
+->  import BWSimREST 
+
+->  print BWSimREST.api_function_name(parameter_list)
+
+
+----------------------------------JAVA----------------------------------------------------
+
+->  import BW_JavaAPI.BWSimREST;
+
+->  Define a new class to call the APIs
+
+->  BWSimREST api_object=new BWSimREST();
+
+    System.out.println(api_object.api_function_name(parameter_list));
+
+
+Below are the needed API calls change it as necessary to JAVA and PYTHON as mentioned above.
+
+
+########################### To add a new client ########################################## 
+
+->  addClient(client_name)
+
+###################### Fields present in addClient()  API ################################
+
+->  client_name = "Your choice" (MUST PRESENT)
+
+->  desc = "Your choice"
+    # Default : description
+
+->  clean_session= 0 / 1 ;
+    # Default : 0;
+
+->  willflag= 0 / 1 ;
+    # Default : 0;
+
+->  willqos= 0 / 1 / 2 ; (MUST NOT PRESENT when NOT willflag)		
+    # Default : 0 ;
+
+->  willretain= 0 / 1 ; (MUST NOT PRESENT when NOT willflag)
+    # Default : 0;
+											
+->  willtopic="My Topic" ; (MUST NOT PRESENT when NOT willflag)
+    # Default : NOT PRESENT; 
+
+->  willmessage="My Message" ;	(MUST NOT PRESENT when NOT willflag)	
+    # Default : NOT PRESENT; 
+												
+################################ To Disconnect a client ##################################
+
+-> removeClient(client_name)	
+
+############################### To Retrieve client list ##################################
+
+-> getClientList()	
+
+######################### To Retrieve subscribers of a topic #############################
+
+-> getSubscribersOf(topic)	
+
+################### To Retrieve subscription details of a client #########################
+
+-> getSubscribeDetails(client_name)	
+
+############################## To Unsubscribe a topic ####################################
+
+-> unsubscribe(client_name,topic)	
+
+############################# To Unsubscribe all topics ##################################
+
+-> unsubscribeAll()
+
+################################# To start a client ######################################
+
+-> startclient(client_name)
+
+################################ To Subscribe a Topic ####################################
+
+-> subscribe(client_name,topic,qos)
+        # qos = 0 / 1 / 2 ; (Default : 0)
+
+############################### To Publish the Message ###################################
+
+->  publish(client_name,topic,message,qos,retain)
+
+        # qos = 0 / 1 / 2 ; (Default : 0)
+        # retain = 0 / 1 ; (Default : 1)
+
+################################## To stop a client ######################################
+
+-> stopclient(client_name)
+
+############################ To stop publisher client(s) #################################
+
+-> stoppublish(client_name)
+
+	# client_name = "YOUR CHOICE" (Default : NULL)
+
+###################To add Response Request Configuration in Database######################
+
+-> addResponseforRequest(client_name,request_topic,request_msg,response_topic,response_msg,qos,retain)
+
+	# qos = 0 / 1 / 2 ; (Default : 0)
+	# retain = 0 / 1 ; (Default : 1)
+
+#######################To add publish message details in Database#########################
+
+-> addNewPublishMessage(client_name,topic,message,qos,retain)
+
+	# qos = 0 / 1 / 2 ; (Default : 0)
+	# retain = 0 / 1 ; (Default : 1)
+
+#########################To add subscription details in Database##########################
+
+-> addNewSubscribe(client_name,topic,qos)
+
+	# qos = 0 / 1 / 2 ; (Default : 0)
+
+##############To remove request response configuration details from Database##############
+
+-> removeResponseforRequest(client_name,req_topic)
+
+#######################To remove publish message details from Database####################
+
+-> removePublishMessage(client_name,topic)
+
+#########################To remove subscription details from Database#####################
+
+-> removeSubscribe(client_name,topic)
+
+
+

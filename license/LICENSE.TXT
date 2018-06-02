@@ -1,0 +1,66 @@
+﻿BEVYWISE NETWORKS - EULA
+
+PLEASE READ THIS SOFTWARE LICENSE AGREEMENT CAREFULLY BEFORE DOWNLOADING, INSTALLING OR USING BEVYWISE NETWORKS SOFTWARE. 
+
+BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THIS SOFTWARE, YOU ARE CONSENTING TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN (A) DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE, AND (B) YOU MAY RETURN THE SOFTWARE FOR A FULL REFUND, OR, IF THE SOFTWARE IS SUPPLIED AS PART OF ANOTHER PRODUCT, YOU MAY RETURN THE ENTIRE PRODUCT FOR A FULL REFUND. YOUR RIGHT TO RETURN AND REFUND EXPIRES 15 DAYS AFTER PURCHASE FROM BEVYWISE OR AN AUTHORIZED BEVYWISE RESELLER, AND APPLIES ONLY IF YOU ARE THE ORIGINAL PURCHASER.
+
+
+ The following terms govern your use of the Software except to the extent a particular program (a) is the subject of a separate written agreement with Bevywise Networks or (b) includes a separate “click-on” license agreement as part of the installation process. License. Subject to the terms and conditions of and except as otherwise provided in this Agreement, Bevywise Networks (“Bevywise”) and its suppliers grant to Customer (“Customer”) a nonexclusive and nontransferable license to use the specific Bevywise program modules, feature set(s) or feature(s) for which Customer has paid the required license fees (the “Software”), in object code form only. In addition, the foregoing license shall also be subject to each of the following limitations:  
+
+
+• Customer’s use of the Software shall be limited to use on a single hardware chassis, on a single central processing unit, as applicable, or use on such greater number of chassis or central processing units as Customer may have paid Bevywise the required license fee; and 
+
+• Customer’s use of the Software shall also be limited as applicable to the number of issued and outstanding IP addresses, central processing unit performance, number of ports, and any other restrictions set forth in Bevywise Release Notes for the Software. 
+
+Evaluation / FREE License: 
+
+In limited situations, Bevywise may make available the Software in object code form to end users only for evaluation, training or other limited non-commercial purposes without charging a license fee (“Evaluation License”). Where Arista has provided an Evaluation License, all of the terms of this End User License Agreement shall apply except for the above requirement to pay a license fee. 
+
+General Limitations:
+
+Except as otherwise expressly provided under this Agreement, Customer shall have no right and Customer specifically agrees not to: 
+
+(i) transfer, assign or sublicense its license rights to any other person, or use the Software on unauthorized and any such attempted transfer, assignment or sublicense shall be void; 
+
+(ii) make error corrections to or otherwise modify Software, or to permit third parties to do the same; or 
+
+(iii) decompile, decrypt, reverse engineer, disassemble or otherwise reduce the Software to humanreadable form to gain access to trade secrets or confidential information in the Software. 
+
+To the extent required by law, at Customer's request, Bevywise shall provide Customer with the interface information needed to achieve interoperability between the Software and another independently created program, on payment of Bevywise's applicable fee. Customer shall observe strict obligations of confidentiality with respect to such information. 
+
+
+Usage Restriction:
+
+The products purchased from the Bevywise should be solely used for the purpose it is intended for and should not be used for any unlawful purpose. 
+
+Upgrades and Additional Copies:
+
+For purposes of this Agreement, “Software” shall include (and the terms and conditions of this Agreement shall apply to) any upgrades, updates, bug fixes or modified versions (collectively, “Upgrades”) or backup copies of the Software licensed or provided to Customer by Bevywise or an authorized Bevywise reseller or distributor for which Customer has paid the applicable license fees. NOTWITHSTANDING ANY OTHER PROVISION OF THIS AGREEMENT: (1) CUSTOMER HAS NO LICENSE OR RIGHT TO USE ANY SUCH ADDITIONAL COPIES OR UPGRADES UNLESS CUSTOMER, AT THE TIME OF ACQUIRING SUCH COPY OR UPGRADE, ALREADY HOLDS A VALID LICENSE TO THE ORIGINAL SOFTWARE AND HAS PAID THE APPLICABLE FEE FOR THE UPGRADE; (2) USE OF UPGRADES IS LIMITED TO ARISTA EQUIPMENT FOR WHICH CUSTOMER IS THE ORIGINAL END USER PURCHASER OR LESSEE OR WHO OTHERWISE HOLDS A VALID LICENSE TO USE THE SOFTWARE WHICH IS BEING UPGRADED; AND (3) USE OF ADDITIONAL COPIES IS LIMITED TO BACKUP PURPOSES ONLY. 
+
+Limitation of Responsibility:
+
+You will indemnify, hold harmless, and defend Bevywise, its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Bevywise's Software.
+
+In no event (including, without limitation, in the event of negligence) will Bevywise, its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, the Software of Bevywise or the use or inability to use the software or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.
+
+Bevywise's entire liability, without exception, is limited to the customers' reimbursement of the purchase price of the Software (maximum being the lesser of the amount paid by you and the suggested retail price as listed by Bevywise) in exchange for the return of the product, all copies, registration papers and manuals, and all materials that constitute a transfer of license from the customer back to Bevywise.
+
+Warranties:
+
+Except as expressly stated in writing, Bevywise makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.
+
+Governing Law:
+
+This Agreement shall be governed by the law of the United States applicable therein. You hereby irrevocably attorn and submit to the non-exclusive jurisdiction of the courts of United States therefrom. If any provision shall be considered unlawful, void or otherwise unenforceable, then that provision shall be deemed severable from this License and not affect the validity and enforceability of any other provisions.
+
+Termination:
+
+Any failure to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this license. Upon termination of this license granted herein for any reason, you agree to immediately cease use of Software purchased from Bevywise and destroy all copies of Software supplied under this Agreement. The financial obligations incurred by you shall survive the expiration or termination of this license.
+
+DISCLAIMER OF WARRANTY:
+
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. THIS DISCLAIMER CONCERNS ALL FILES GENERATED AND EDITED BY THE SOFTWARE OF Bevywise AS WELL.
+
+CONSENT OF USE OF DATA:
+
+You agree that Bevywise may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to its Software, Bevywise may also use this information to provide notices to you which may be of use or interest to you.

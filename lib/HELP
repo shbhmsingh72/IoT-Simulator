@@ -1,0 +1,92 @@
+# @Bevywise.com IOT Initiative. All rights reserved 
+# www.bevywise.com Email - support@bevywise.com
+#
+###############################################################
+          Complete custom Testing                                      
+###############################################################
+
+# This folder contains libraries which are needed to customize your testing environment. 
+
+  1. libmqttclient.so
+  2. py_mqtt_client.pyc
+
+# For SSL/TLS communication We provide certificates with Key files in Certificate folder. 
+
+# For your self signed certificates you must follow this. 
+
+  1. Broker certificate and Key file MUST be present in ./Certificate/server folder. 
+  
+  2. Client certificate and Key file MUST be present in ./Certificate/client folder.
+  
+  3. CA Certificate MUST present in ./Certificate/root folder.
+  
+  4. Broker and Client certificates MUST be signed by same CA.
+
+##### Importing class MQTTclient from py_mqtt_client.pyc #######
+
+->  from py_mqtt_client import MQTTclient 
+
+->  BWIOT_client = MQTTclient(“BWIOT_client")
+
+
+########### Fields present in MQTTclient() API #################
+
+->  clientid = "Your choice" (MUST PRESENT)
+
+->  portno = 1883 (non TLS) / 8883 (TLS) ;
+    # Default : 1883;
+    
+->  timeout = 60 (in seconds) ;
+    # Default : 60;  
+
+->  hostname = "localhost" ; (IP ADDRESS)
+    # Default : localhost;
+
+->  clear_session= 0 / 1 ;
+    # Default : 0;
+
+->  username= "Your choice" ;
+    # Default : NONE;
+
+->  password= "Your choice" ;
+    # Default : NONE; 
+
+->  willflag= True / False ;
+    # Default : FALSE;
+
+->  willqos= 0 / 1 / 2 ; (MUST NOT PRESENT when NOT willflag)   
+    # Default : 0 ;
+
+->  willretain= True / False ; (MUST NOT PRESENT when NOT willflag)
+    # Default : NOT PRESENT;
+                      
+->  willtopic="My Topic" ; (MUST NOT PRESENT when NOT willflag)
+    # Default : NOT PRESENT; 
+
+->  willmessage="My Message" ;  (MUST NOT PRESENT when NOT willflag)  
+    # Default : NOT PRESENT; 
+                        
+
+################ To Connect With BROKER ####################
+
+->  BWIOT_client.connect()  
+
+################# To Publish the Message ######################
+
+->  BWIOT_client.publish(topic_name,data,retain,qos)
+        # retain = 0 / 1 ; (Default : 1)
+        # qos = 0 / 1 / 2 ; (Default : 0)
+  
+##################### To Subscribe a Topic #####################
+
+->   BWIOT_client.subscribe(topic_name,topic_qos)
+        # topic_qos = 0 / 1 / 2 ; (Default : 0)
+
+
+################### To UnSubscribe a Topic #####################
+
+->   BWIOT_client.unsubscribe(topic_name)
+
+################## Disconnect from BROKER ###################
+
+->   BWIOT_client.disconnect()
